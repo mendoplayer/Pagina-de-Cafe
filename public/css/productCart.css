@@ -1,0 +1,262 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6f1d1b;
+  font-family: "Cinzel";
+  color: #ffe6a7;
+  
+}
+
+.contentbolsa{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 0;
+
+}
+
+.imgbolsa{
+  padding: 1em;
+}
+
+.imgbolsa1{
+  width: 20vw;
+}
+
+
+#article-pos {
+  background-image: url(../image/cafelargo3.jpeg);
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+ 
+}
+
+#banner-txt {
+  font-family: "Dancing Script";
+  color: #ffe6a7;
+  font-size: 3rem;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+
+.link {
+  font-size: 0.8rem;
+  font-family: "Roboto";
+  padding: 1.5em;
+  text-decoration: none;
+  color: #ffe6a7;
+  transition: all 0.3s linear;
+}
+
+.link:hover {
+  color: #432818;
+}
+
+legend {
+  font-size: 1.2rem;
+  padding: 1em;
+}
+p {
+  padding: 0.7em;
+  
+}
+/* section picture {
+  width: 100px;
+} */
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+label {
+  font-size: 0.8rem;
+  margin: 5px;
+}
+
+form fieldset input {
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+
+.ocultar {
+  display: none;
+}
+.compra-actual {
+  margin: 10px;
+  border: 4px #774544 inset;
+  border-radius: 20px;
+}
+
+.forma-pago {
+  margin: 10px;
+  display: flex;  
+  border: 4px #774544 inset;
+  border-radius: 20px;
+  justify-content:flex-start;
+}
+
+.btn-buy {
+  flex: 1 0 auto;
+  background-color:#ffe6a7 ;
+  color: #99582a;
+  border-radius: 20px;
+  margin: 10px 0px;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+  background-color: #432818;
+  color: #ffe6a7
+}
+
+.chk-txt {
+  margin: -18px 0 5px 27px;
+  font-size: 0.9rem;
+  font-family: "Roboto";
+}
+
+.chk-input {
+  margin: 2px 5px 5px 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  #banner-txt {
+    font-size: 4rem;
+  }
+
+  form fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0;
+    padding: 1.4em;
+  }
+
+  .btn-buy {
+    margin: 15px 220px;
+    font-size: 20px;
+  }
+
+  .btn-buy:hover {
+    background-color: #432818;
+  }
+
+  .chk-txt {
+    margin: -18px 8px 5px 3px;
+    font-size: 1.1rem;
+
+  }
+
+  .imgbolsacafe {
+    display: block;
+    max-width: 120%;
+    padding-right: 20px;
+    width: 150px;
+  }
+  .link {
+    margin-left: 6px;
+
+  }
+  article p {
+    padding: 1.5em;
+    font-family: "Roboto";
+  }
+
+  legend {
+    font-size: 1.5em;
+    margin: 0 ;
+    text-align: center;
+  }
+  .compra-actual {
+    display: flex;
+    gap: 15px;
+  }
+
+.forma-pago {
+  justify-content: center;
+  align-items: center;
+  height: 26.5vw;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+  article p {
+    margin-left: 0;
+    font-size: 1.3rem;
+
+  }
+
+  legend {
+    font-size: 2em;
+  }
+
+ .link {
+    margin-left: 0;
+
+  }
+
+  form fieldset {
+   
+    padding: 1.4em;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 60vh;
+    
+  }
+
+  .imgbolsacafe {
+    max-width: 200%;
+    width: 150px;
+
+  }
+  
+  .compra-actual {
+    align-items: center;
+  }
+ 
+  .chk-txt {
+    font-size: 1.3rem;
+  }
+  .imgbolsa1 {
+    width: 16vw;
+}
+.contentbolsa{
+  gap: 0;
+  width: 43vw;
+}
+}

@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset{
+  border: none;
+}
+
+body {
+  background-color: #6f1d1b;
+}
+.banner {
+  background-image: url(../image/cafelargo3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  }
+
+.imagenBanner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+ }
+ #banner-txt {
+  font-family: "Dancing Script";
+  color: #ffe6a7;
+  font-size: 4rem;
+  
+}
+
+.imgbanner {  
+  height: 36vh;
+  width: 100vw;
+}
+h2 {
+  text-align: center;
+  padding: 1.5em;
+  color: white;
+  font-family: "Cinzel";
+  color: #ffe6a7;
+}
+form {
+  
+  text-align: center;
+}
+
+.Nombre {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+    width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+.Apellido {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+    width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+
+.Email {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+    width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+
+.Contraseña {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+    width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+
+.botonEnviar {
+  padding: 0.6em;
+  width: 8em;
+  border-radius: 20px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: #6f1d1b;
+  background-color: #ffe6a7;
+  transition: all 0.3s linear;
+  margin-right: 39px;
+}
+.botonEnviar:hover {
+  background-color: rgb(67, 40, 24);
+  color: #ffe6a7;
+}
+
+.botonReset {
+  padding: 0.6em;
+  width: 8em;
+  border-radius: 20px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: #6f1d1b;
+  background-color: #ffe6a7;
+  transition: all 0.3s linear;
+}
+.botonReset:hover {
+  background-color: rgb(67, 40, 24);
+  color: #ffe6a7;
+}
+
+.yaTengoUsuario {
+  font-size: 25px;
+  color: #ffe6a7;
+}
+.YaEstoyRegistrado {
+  padding: 2em;
+}
+.leyendas {
+  display: inline-flex;
+}
+::placeholder {
+    color: #6f1d1b;
+    font-family: "Roboto";
+}
+section a {
+  text-decoration: none;
+}
+
+.errorvalidacion{
+  color: #ffe6a7;
+  font-size: 30px;
+  padding: 14px;
+  
+}
+
+.errors{
+  color: #ffe6a7;
+  font-size: 30px;
+  padding: 14px;
+}
+  
+
+@media (min-width: 768px) {
+  .Nombre {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Apellido {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Email {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Contraseña {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .botonEnviar {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+    margin-right: 39px;
+  }
+  .botonEnviar:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .botonReset {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+  }
+  .botonReset:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .yaTengoUsuario {
+    font-size: 25px;
+    color: #ffe6a7;
+    text-decoration: none;
+  }
+ 
+ 
+@media (min-width: 1300px) {
+  .Nombre {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Apellido {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+  .Email {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Contraseña {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .botonEnviar {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+    margin-right: 39px;
+  }
+  .botonEnviar:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .botonReset {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+  }
+  .botonReset:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .yaTengoUsuario {
+    font-size: 25px;
+    color: #ffe6a7;
+  }
+ 
+  
+  .banner {
+    height: 30vh;
+    }
+    
+  .imagenBanner{
+    height: 30vh;
+   }
+}
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include("../includes/head") %>
+
+    <body>
+        <%- include("../includes/header") %>
+
+            <main>
+                <section class="banner">
+                    <article class="imagenBanner">
+
+                        <h1 id="banner-txt">INGRESA</h1>
+                    </article>
+                </section>
+
+
+                <form action="/users/access" method="post">
+
+                    <h2>INGRESA TUS DATOS</h2>
+                    <fieldset>
+                        <input class="Email" type="text" placeholder="Email" name="email" id="Email" value="" required>
+                    </fieldset>
+                    <fieldset>
+                        <input class="Contraseña" type="password" placeholder="Contraseña" name="password" value="" required>
+                    </fieldset>
+                    <fieldset class="check">
+                        <input type="checkbox" name="remember" id="remember">Recordarme</input>
+                    </fieldset>
+
+
+                    <fieldset class="BarraBotones">
+                        <button class="botonEnviar" type="ENVIAR">INGRESAR</button>
+                        <button class="botonReset" type="reset">BORRAR</button>
+                    </fieldset>
+                    <section >
+                        <% if (locals.errors && errors.email) { %>
+                            <p class="errormail"><%= errors.email.msg %> </p>
+                           <% } %>
+                           
+                           <% if (locals.errors && errors.password) { %>
+                               <p class="errorpass"><%= errors.password.msg %> </p>
+                              <% } %>
+                            </section>
+                    <section class="leyendas">
+                        <a class="olvidasteContraseña" href="">¿Olvidaste la Contraseña?</a>
+                        <a class="olvidasteUsuario" href="">¿Olvidaste el Usuario?</a>
+                    </section>
+                 
+                </form>
+              
+
+            </main>
+            <%- include("../includes/footer") %>
+
+    </body>
+
+</html>

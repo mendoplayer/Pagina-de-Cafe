@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+  <%- include("./includes/head") %> 
+  <body>
+    <%- include("./includes/header") %> 
+
+    <main>
+      <section id="article-pos">
+        <article class="flex-text">
+          <p id="banner-txt">FORMAS DE PAGO</p>
+        </article>
+      </section>
+<section id="caja-pago">
+  <article class= "cajachica">
+  <h2>PAGO CON TARJETA</h2>
+    <article class="tipos-pago">
+      
+        <form class="cajainferior" action="/" method="post">
+            <fieldset>
+                <legend class="ocultar">Tarjeta</legend>
+                <label for="tarjetipo">Tarjeta</label>
+                <input
+                  type="text"
+                  name="tipotarjeta"
+                  id="tarjetipo"
+                  placeholder="Visa, Master, Amex...." 
+                  required
+                />
+            </fieldset>
+
+            <fieldset>
+                <legend class="ocultar">Nombre y Apellido</legend>
+                <label for="nombretarjeta">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  name="nombreyapellidotarjeta"
+                  id="nombretarjeta"
+                  placeholder="Nombre y Apellido" 
+                  required
+                />
+            </fieldset>
+
+            <fieldset>
+                <legend class="ocultar">Nro Tarjeta</legend>
+                <label for="nrotarjeta">Número de la tarjeta</label>
+                <input
+                  type="number"
+                  name="numerotarjeta"
+                  id="nrotarjeta"
+                  placeholder="Número de la tarjeta" 
+                  required
+                />
+            </fieldset>
+
+            <fieldset>
+                <legend class="ocultar">Vencimiento</legend>
+                <label for="vtotarjeta">Vencimiento</label>
+                <input
+                  type="date"
+                  name="vencimientotarjeta"
+                  id="vtotarjeta"
+                  placeholder="Fecha de vencimiento" 
+                  required
+                />
+            </fieldset>
+
+            <fieldset>
+                <legend class="ocultar">Código de seguridad</legend>
+                <label for="codtarjeta">Codigo de seguridad</label>
+                <input
+                  type="number"
+                  name="codigotarjeta"
+                  id="codtarjeta"
+                  placeholder="Código de seguridad" 
+                  required
+                />
+            </fieldset>
+        </form>
+      </article>
+    </article>
+    <article class="tipos-pago">
+        <h2>Pago con Mercado Pago</h2>
+        <button class="btn-buy" type="submit">Ir a MercadoPago</button>
+
+    </article>
+    <article class="tipos-pagos">
+        <h2>Pago por transferencia: Alias COFI.CLUB.CAFE</h2>
+            <form action="/" method="post">
+            <fieldset class= "imagendepago">
+                <legend class="ocultar">Subí el comprobante</legend>
+                <label for="transfer">Subí el comprobante</label>
+                <input type="file" name="comprobanteTransfer" id="transfer" required />
+              </fieldset>
+            </form>
+              
+    </article>
+
+    
+</section>
+
+<section id="caja-envio">
+    <article>
+        <h1>ENVÍO</h1>
+    </article>
+    <form class="cajainferior" action="/" method="post">
+    <fieldset>
+      <legend class="ocultar">ZonaGeográfica</legend>
+      <label for="zona">Zona geográfica:</label>
+      <select name="localidad" id="zona">
+        <option value="caba">CABA</option>
+        <option value="gban">GBA Norte</option>
+        <option value="gbas">GBA Oeste</option>
+        <option value="gbas">GBA Sur</option>
+      </select> 
+  
+  </fieldset>
+    <fieldset>
+        <legend class="ocultar">Dirección</legend>
+        <label for="domicilio">Domicilio de entrega</label>
+        <input type="name" name="domicilio" id="domicilio" placeholder="Domicilio" required />
+      </fieldset>
+    
+      <fieldset class="botonesabajo">
+        <button class="btn-buy" type="submit">Finalizar compra</button>
+        <button class="btn-buy" type="reset">Borrar</button>
+    </fieldset>
+  </form>
+</section> 
+
+    </main>
+    <%- include("./includes/footer") %> 
+
+  </body>
+</html>

@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #6f1d1b;
+}
+
+.banner {
+  background-image: url(../image/cafelargo3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  }
+.imagenBanner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  }
+
+
+  fieldset{
+    border: none;
+    
+  }
+
+
+  #banner-txt {
+    font-family: "Dancing Script";
+    color: #ffe6a7;
+    font-size: 4rem;
+  }
+  
+h2 {
+  text-align: center;
+  padding: 1.5em;
+  color: white;
+  font-family: "Cinzel";
+  color: #ffe6a7;
+}
+form {
+  padding: 0;
+  text-align: center;
+}
+.Nombre {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 4vh;
+  width: 50vh;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 3vh;
+}
+.Apellido {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 4vh;
+  width: 50vh;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 3vh;
+}
+
+.Email {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+  width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+
+
+
+
+
+.Contraseña {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  height: 1.2em;
+    width: 14em;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+::placeholder {
+  color: #6f1d1b;
+  font-family: "Roboto";
+}
+
+.botonEnviar {
+  padding: 0.6em;
+  width: 8em;
+  border-radius: 20px;
+  font-size: 0.7em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: #6f1d1b;
+  background-color: #ffe6a7;
+  transition: all 0.3s linear;
+  margin-right: 39px;
+}
+.botonEnviar:hover {
+  background-color: rgb(67, 40, 24);
+  color: #ffe6a7;
+}
+
+.botonReset {
+  padding: 0.6em;
+  width: 8em;
+  border-radius: 20px;
+  font-size: 0.7em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: #6f1d1b;
+  background-color: #ffe6a7;
+  transition: all 0.3s linear;
+}
+.botonReset:hover {
+  background-color: rgb(67, 40, 24);
+  color: #ffe6a7;
+}
+
+.olvidasteContraseña {
+  font-size: 25px;
+  color: #ffe6a7;
+  width: 6em;
+  
+}
+.olvidasteUsuario {
+  font-size: 25px;
+  color: #ffe6a7;
+  width: 6em;
+}
+.leyendas {
+  margin-top: 53px;
+}
+.yaTengoUsuario {
+  font-size: 25px;
+  color: #ffe6a7;
+}
+.YaEstoyRegistrado {
+  margin-top: 30px;
+}
+.leyendas {
+  display:flex;
+  justify-content: space-around;
+    padding: 0 0 2em 0;
+}
+section a {
+  text-decoration: none;
+}
+.BarraBotones{
+  padding: 20px;
+}
+.check{
+  color: #ffe6a7;
+}
+#remember{
+  width: 28px;
+}
+.errormail{
+  color: #ffe6a7;
+  font-size: 30px;
+  padding: 14px;
+}
+.errorpass{
+  color: #ffe6a7;
+  font-size: 30px;
+  padding: 14px;
+}
+
+@media (min-width: 768px) {
+
+  
+  .Nombre {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Apellido {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+  .Email {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Contraseña {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .botonEnviar {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+    margin-right: 39px;
+  }
+  .botonEnviar:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .botonReset {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+  }
+  .botonReset:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .YaEstoyRegistrado {
+    margin-top: 30px;
+  }
+  .leyendas {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 2em 0;
+  }
+}
+
+@media (min-width: 1300px) {
+
+ 
+  .Nombre {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Apellido {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+  .Email {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .Contraseña {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    height: 4vh;
+    width: 62vh;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 3vh;
+  }
+
+  .botonEnviar {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+    margin-right: 39px;
+  }
+  .botonEnviar:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .botonReset {
+    padding: 0.6em;
+    width: 6em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+    transition: all 0.3s linear;
+  }
+  .botonReset:hover {
+    background-color: rgb(67, 40, 24);
+    color: #ffe6a7;
+  }
+
+  .YaEstoyRegistrado {
+    margin-top: 30px;
+  }
+  .leyendas {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 2em 0;
+  }
+  .banner {
+    height: 30vh;
+    }
+  .imagenBanner{
+    height: 30vh;
+    }
+}

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6f1d1b;
+    
+}
+
+/* BANNER */
+
+.contbannerlist{
+
+background-image: url(../../image/cafelargo3.jpeg);
+height: 20vh;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.bannerlist{
+
+    font-family: "Dancing Script";
+    color: #ffe6a7;
+    font-size: 5em;
+
+}
+
+/* FIN BANNER */
+
+/* CUERPO */
+
+.contlistado{
+
+    display: flex;
+    flex-wrap: wrap;   
+    padding: 1.5em;
+    gap: 2em;
+}
+
+.contsinproducto{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.titulolist{
+
+font-family: "Roboto";
+color: #ffe6a7;
+font-size: 1.5em;
+
+}
+
+.contentlista{
+
+    color:#ffe6a7;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.listagral{
+    padding:1em;
+    border: 4px #774544 inset;
+    border-radius: 20px;
+}
+
+.contemoji{
+    font-size: 1.5em;
+    padding: 1em;
+    color: #ffe6a7;
+}
+
+
+.contemojimas{
+
+    font-size: 3em;
+    padding: 1em;    
+    display: flex;
+    justify-content: flex-start;
+    transition: all .3s ease-in-out;
+}
+
+.contemojimas:hover{
+
+    font-size: 3.2em;
+}
+
+.fa-plus-circle{
+
+    color: #ffe6a7;
+}
+
+.fa-dizzy{
+    font-size:2em;
+    color: #ffe6a7;
+}
+
+.contlis{
+
+    padding: 0.5em 0 0;
+    
+}
+
+.lilista{
+    padding: 0.5em;
+}
+
+.contentimagen{
+    object-fit: cover;
+    width: 16rem;
+    height: 25vh;
+}
+
+.boton-logout {
+    
+    background-color: #ffe6a7;
+    color: #432818;
+    font-size: 1.05em;
+    padding: 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s linear;
+    text-decoration: none;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #959595;
+    font-family: "Roboto";
+    
+}
+
+
+/* FIN CUERPO */
+
+@media  (min-width: 768px) {
+
+    .bannerlist {
+
+        font-family: "Dancing Script";
+        color: #ffe6a7;
+        font-size: 4em;
+    
+    }
+
+    .titulolist{
+
+        font-family: "Roboto";
+        color: #ffe6a7;
+        font-size: 2em;
+        
+        }
+        
+        .contemoji{
+            font-size: 3em;
+            padding: 1em;
+            color: #ffd9a7;
+        }
+
+        .contemojimas{
+
+            
+            padding: 1em;    
+          
+        }
+
+}
+
+
+
+  
+
+
+

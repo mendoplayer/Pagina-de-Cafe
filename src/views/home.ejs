@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include("./includes/head") %> 
+<body>
+    <%- include("./includes/header") %> 
+    <main>
+ 
+           <section class="contenedorgeneral">
+    
+               <nav class="contenedorcarrucel">
+                   <li class="carrucelitem">
+                      <img class="carrucelfoto" src="image/tazafull2.jpg" alt="">
+                      <p class="carruceltexto1">Suscripción mensual desde $1200!! Tomá el café que disfruta el mundo, todos los días</p>
+                      <p class="carruceltexto4">Suscripción mensual desde $1200!!</p>
+                  </li> 
+                  <li class="carrucelitem">
+                    <img class="carrucelfoto" src="image/bolsafull.jpg" alt=""> 
+                    <p class="carruceltexto2">Somos amantes del café!  Una comunidad para descubrir, disfrutar y aprender.</p>
+                    <p class="carruceltexto5">Somos amantes del café! </p>
+                  </li>
+                  <li class="carrucelitem">
+                    <img class="carrucelfoto" src="image/granosfull.webp" alt="">
+                    <p class="carruceltexto3">¿Buscás algo en particular? En nuestra tienda online podés comprar ese café que estás buscando.</p>
+                    <p class="carruceltexto6">¿Buscás algo en particular? </p>
+                  </li>  
+               </nav>
+
+           </section>
+
+        <section >
+            <h2 class="textoinformacion1">¿Cómo funciona la suscripción?</h2>
+            <article class="contenedorinformacion">
+             <picture class="imagengeneral">
+                 <img class="fotoimg" src="image/casitacafe.jpg" >
+                 <h3 class="tituloinformacion">SELECCION</h3>
+                 <p class="textoinformacion2">Te seleccionamos los mejores cafés de productores de la más alta calidad.</p>
+             </picture>
+             <picture class="imagengeneral">
+                 <img class="fotoimg" src="image/balancecafe.jpg" >
+                 <h3 class="tituloinformacion">CANTIDAD</h3>
+                 <p class="textoinformacion2">Seleccioná cuánto necesitás, si chico, mediano o familiar.</p>
+             </picture>
+             <picture class="imagengeneral">
+                 <img class="fotoimg" src="image/calendariocafe.jpg" >
+                 <h3 class="tituloinformacion">AGENDALO</h3>
+                 <p class="textoinformacion2">Podés recibir el café de manera mensual, bimestral o trimestral.</p>
+             </picture>
+            </article>
+        </section>
+
+ <section class="contenedorbanner">
+
+     <article class="banner1">         
+         <p class="bannerparrafo"><a class="bannertexto1" href="productCart">CARRITO</a></p>
+     </article>
+
+     <article class="banner2">        
+        <p class="bannerparrafo"><a class="bannertexto2" href="#" >EDUCACION</a></p>
+     </article>
+     
+     <article class="banner3">       
+        <p class="bannerparrafo"><a class="bannertexto3" href="#">EXPERIENCIA</a></p>
+     </article>
+
+ </section>
+
+ <section>
+       <article class="contenedorletter">
+             <h3 class="tituloletter">SUSCRIBITE A NUESTRO NEWSLETTER</h3>
+       </article>
+
+       <form class="contenedorinputs">
+             <fieldset class="correo">
+                  <legend class="oculto">Correo electronico</legend>
+                         <label class="oculto" for="correo">Correo electronico</label>
+                           <input type="email" id="email" name="correo" placeholder="EMAIL" >
+               </fieldset>
+               <fieldset class="botonenviar">
+                <legend class="oculto">Botones de formularios</legend>
+                       <button class="enviar" type="submit">ENVIAR</button>                       
+               </fieldset>
+       </form>    
+     
+
+ </section>
+           
+    </main>
+    <%- include("./includes/footer") %> 
+
+
+</body>
+</html>
